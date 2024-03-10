@@ -1,0 +1,291 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+::marker {
+  color: #3f2aff;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: 'font', sans-serif;
+}
+
+.main {
+  font-family: Arial, Verdana, sans-serif;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+  background-color: #070217;
+}
+
+.logo {
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.links {
+  margin-bottom: 50px;
+}
+
+.link {
+  display: inline-block;
+  padding: 24px 49px;
+  background-color: #3f2aff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.link:not(:last-child) {
+  margin-right: 25px;
+}
+
+.download {
+  padding-left: 30px;
+  background-image: url(../img/download.png);
+  background-position: left center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  color: #3f2aff;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 80px 0;
+  width: 1170px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  color: #333;
+}
+
+.title-menu {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 40px;
+  line-height: 46px;
+  color: #333;
+}
+
+.title-content {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  color: #333;
+}
+
+.text {
+  width: 872px;
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+}
+
+.text-item {
+  padding: 50px 95px;
+  width: 100%;
+  background-color: #3f2aff;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+}
+
+.gray-box {
+  background-position: right center;
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #f3f3f3;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+.gray-box-img-menu {
+  background-image: url(../img/decorate-1.png);
+}
+
+.gray-box-img {
+  background-image: url(../img/decorate-2.png);
+}
+
+.gray-box:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.gray-box text {
+  width: 692px;
+  margin-bottom: 10px;
+}
+
+.list {
+  padding-left: 15px;
+}
+
+.list-link {
+  border-bottom: 1px solid #3f2aff;
+  font-size: 20px;
+  color: #3f2aff;
+}
+
+.list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.image {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+figure {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 40px;
+  width: 872px;
+}
+
+.picture {
+  font-size: 0;
+}
+
+.picture figcaption {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  border: 1px solid #b6b6b6;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+.modules-container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.modules-logo {
+  width: 137px;
+  height: 30px;
+  margin-top: 50px;
+  color: #333333;
+}
+
+.modules-link {
+  display: block;
+  margin-top: 25px;
+  padding-left: 50px;  color: #3f2aff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  background-image: url(../img/Arrow\ 1.svg);
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.modules-title {
+  margin-top: 25px;
+  font-family: Arial;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 69px;
+  color: #3f2aff;
+}
+
+.modules-item {
+  list-style-type: none;
+}
+
+.modules-item-main{
+  margin: 0 auto;
+  padding: 0;
+}
+
+.modules-item-block {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 572px;
+  height: 505px;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+.modules-item-block:nth-child(odd) {
+  margin-right: 25px;
+}
+
+.modules-title-item {
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-bottom: 0;
+  font-family: Arial;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  color: #3f2aff;
+}
+
+.modules-list {
+  margin-left: 25px;
+  margin-top: 2px;
+  padding: 0;
+  text-align: left;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 165%;
+  color: #333333;
+}
+
+.number {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  font-family: Arial;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 46px;
+  color: #EAEAEA;
+  }
+
+.modules-button {
+  display: block;
+  color: #3f2aff;
+  text-align: center;
+  width: 274px;
+  height: 70px;
+  border: 2px solid #3F2AFF;
+  padding: 0;
+  margin: 50px auto;
+  font-size: 18px;
+  font-weight: 700;
+}
